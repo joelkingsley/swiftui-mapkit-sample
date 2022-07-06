@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F16F039728736F2400AA8697 /* SourceDestinationSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F039628736F2400AA8697 /* SourceDestinationSelector.swift */; };
+		F16F03992873702B00AA8697 /* FastestRouteListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F03982873702B00AA8697 /* FastestRouteListItemView.swift */; };
+		F16F039D287378EB00AA8697 /* FastestRouteListItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F039C287378EB00AA8697 /* FastestRouteListItemViewModel.swift */; };
+		F16F03A02874893000AA8697 /* RouteDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F039F2874893000AA8697 /* RouteDetailScreen.swift */; };
+		F16F03A92874B42C00AA8697 /* RouteDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F03A82874B42C00AA8697 /* RouteDetailViewModel.swift */; };
+		F16F03B02874C65700AA8697 /* MapViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F03AF2874C65700AA8697 /* MapViewCoordinator.swift */; };
+		F16F03B42874C76200AA8697 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16F03B32874C76200AA8697 /* MapView.swift */; };
 		F1EE150B28732C1A0020CD74 /* SwiftUI_MapKit_SampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE150A28732C1A0020CD74 /* SwiftUI_MapKit_SampleApp.swift */; };
 		F1EE150D28732C1A0020CD74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE150C28732C1A0020CD74 /* ContentView.swift */; };
 		F1EE150F28732C1C0020CD74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EE150E28732C1C0020CD74 /* Assets.xcassets */; };
 		F1EE151228732C1C0020CD74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1EE151128732C1C0020CD74 /* Preview Assets.xcassets */; };
+		F1EE151C287331CD0020CD74 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE151B287331CD0020CD74 /* CardView.swift */; };
+		F1EE151E2873326F0020CD74 /* RouteSelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE151D2873326F0020CD74 /* RouteSelectionScreen.swift */; };
+		F1EE1521287356400020CD74 /* RouteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE1520287356400020CD74 /* RouteViewModel.swift */; };
+		F1EE1524287356C20020CD74 /* GetFastestRoutesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE1523287356C20020CD74 /* GetFastestRoutesUseCase.swift */; };
+		F1EE152B287357F70020CD74 /* JsonRoutesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE152A287357F70020CD74 /* JsonRoutesRepository.swift */; };
+		F1EE152D287358110020CD74 /* RoutesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE152C287358110020CD74 /* RoutesRepository.swift */; };
+		F1EE153228735A150020CD74 /* FastestRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EE153128735A150020CD74 /* FastestRoutes.swift */; };
+		F1EE153628735C990020CD74 /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = F1EE153528735C990020CD74 /* response.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F16F039628736F2400AA8697 /* SourceDestinationSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceDestinationSelector.swift; sourceTree = "<group>"; };
+		F16F03982873702B00AA8697 /* FastestRouteListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastestRouteListItemView.swift; sourceTree = "<group>"; };
+		F16F039C287378EB00AA8697 /* FastestRouteListItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastestRouteListItemViewModel.swift; sourceTree = "<group>"; };
+		F16F039F2874893000AA8697 /* RouteDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailScreen.swift; sourceTree = "<group>"; };
+		F16F03A82874B42C00AA8697 /* RouteDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailViewModel.swift; sourceTree = "<group>"; };
+		F16F03AF2874C65700AA8697 /* MapViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewCoordinator.swift; sourceTree = "<group>"; };
+		F16F03B32874C76200AA8697 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		F1EE150728732C1A0020CD74 /* SwiftUI MapKit Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI MapKit Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1EE150A28732C1A0020CD74 /* SwiftUI_MapKit_SampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MapKit_SampleApp.swift; sourceTree = "<group>"; };
 		F1EE150C28732C1A0020CD74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1EE150E28732C1C0020CD74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1EE151128732C1C0020CD74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1EE151B287331CD0020CD74 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F1EE151D2873326F0020CD74 /* RouteSelectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteSelectionScreen.swift; sourceTree = "<group>"; };
+		F1EE1520287356400020CD74 /* RouteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteViewModel.swift; sourceTree = "<group>"; };
+		F1EE1523287356C20020CD74 /* GetFastestRoutesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetFastestRoutesUseCase.swift; sourceTree = "<group>"; };
+		F1EE152A287357F70020CD74 /* JsonRoutesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonRoutesRepository.swift; sourceTree = "<group>"; };
+		F1EE152C287358110020CD74 /* RoutesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutesRepository.swift; sourceTree = "<group>"; };
+		F1EE153128735A150020CD74 /* FastestRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastestRoutes.swift; sourceTree = "<group>"; };
+		F1EE153528735C990020CD74 /* response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F16F039A287378C500AA8697 /* FastestRouteListItem */ = {
+			isa = PBXGroup;
+			children = (
+				F16F03982873702B00AA8697 /* FastestRouteListItemView.swift */,
+				F16F039C287378EB00AA8697 /* FastestRouteListItemViewModel.swift */,
+			);
+			path = FastestRouteListItem;
+			sourceTree = "<group>";
+		};
+		F16F039B287378D600AA8697 /* SourceDestinationSelector */ = {
+			isa = PBXGroup;
+			children = (
+				F16F039628736F2400AA8697 /* SourceDestinationSelector.swift */,
+			);
+			path = SourceDestinationSelector;
+			sourceTree = "<group>";
+		};
+		F16F039E2874891A00AA8697 /* RouteDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F16F03AE2874C64400AA8697 /* Components */,
+				F16F039F2874893000AA8697 /* RouteDetailScreen.swift */,
+				F16F03A82874B42C00AA8697 /* RouteDetailViewModel.swift */,
+			);
+			path = RouteDetail;
+			sourceTree = "<group>";
+		};
+		F16F03AE2874C64400AA8697 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F16F03AF2874C65700AA8697 /* MapViewCoordinator.swift */,
+				F16F03B32874C76200AA8697 /* MapView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F1EE14FE28732C1A0020CD74 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +118,9 @@
 			isa = PBXGroup;
 			children = (
 				F1EE150A28732C1A0020CD74 /* SwiftUI_MapKit_SampleApp.swift */,
-				F1EE150C28732C1A0020CD74 /* ContentView.swift */,
+				F1EE1527287357C50020CD74 /* Data */,
+				F1EE1522287356970020CD74 /* Domain */,
+				F1EE15182873319E0020CD74 /* Presentation */,
 				F1EE150E28732C1C0020CD74 /* Assets.xcassets */,
 				F1EE151028732C1C0020CD74 /* Preview Content */,
 			);
@@ -65,6 +133,111 @@
 				F1EE151128732C1C0020CD74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F1EE15182873319E0020CD74 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE151F287356330020CD74 /* ViewModels */,
+				F1EE151A287331BE0020CD74 /* Screens */,
+				F1EE1519287331AB0020CD74 /* Styling */,
+				F1EE150C28732C1A0020CD74 /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F1EE1519287331AB0020CD74 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE151B287331CD0020CD74 /* CardView.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
+		F1EE151A287331BE0020CD74 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE153728736E820020CD74 /* RouteSelection */,
+				F16F039E2874891A00AA8697 /* RouteDetail */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F1EE151F287356330020CD74 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE1520287356400020CD74 /* RouteViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F1EE1522287356970020CD74 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE1529287357D30020CD74 /* Interfaces */,
+				F1EE15252873578F0020CD74 /* UseCases */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F1EE15252873578F0020CD74 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE1523287356C20020CD74 /* GetFastestRoutesUseCase.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		F1EE1527287357C50020CD74 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE153028735A050020CD74 /* DTO */,
+				F1EE1528287357CC0020CD74 /* Repositories */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F1EE1528287357CC0020CD74 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE152A287357F70020CD74 /* JsonRoutesRepository.swift */,
+				F1EE153528735C990020CD74 /* response.json */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F1EE1529287357D30020CD74 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE152C287358110020CD74 /* RoutesRepository.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		F1EE153028735A050020CD74 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE153128735A150020CD74 /* FastestRoutes.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		F1EE153728736E820020CD74 /* RouteSelection */ = {
+			isa = PBXGroup;
+			children = (
+				F1EE153828736E8A0020CD74 /* Components */,
+				F1EE151D2873326F0020CD74 /* RouteSelectionScreen.swift */,
+			);
+			path = RouteSelection;
+			sourceTree = "<group>";
+		};
+		F1EE153828736E8A0020CD74 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F16F039B287378D600AA8697 /* SourceDestinationSelector */,
+				F16F039A287378C500AA8697 /* FastestRouteListItem */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1EE151228732C1C0020CD74 /* Preview Assets.xcassets in Resources */,
+				F1EE153628735C990020CD74 /* response.json in Resources */,
 				F1EE150F28732C1C0020CD74 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +311,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EE153228735A150020CD74 /* FastestRoutes.swift in Sources */,
+				F16F03A02874893000AA8697 /* RouteDetailScreen.swift in Sources */,
 				F1EE150D28732C1A0020CD74 /* ContentView.swift in Sources */,
+				F1EE1524287356C20020CD74 /* GetFastestRoutesUseCase.swift in Sources */,
+				F16F03B02874C65700AA8697 /* MapViewCoordinator.swift in Sources */,
+				F16F03A92874B42C00AA8697 /* RouteDetailViewModel.swift in Sources */,
+				F1EE152B287357F70020CD74 /* JsonRoutesRepository.swift in Sources */,
+				F1EE152D287358110020CD74 /* RoutesRepository.swift in Sources */,
+				F1EE151C287331CD0020CD74 /* CardView.swift in Sources */,
+				F16F039D287378EB00AA8697 /* FastestRouteListItemViewModel.swift in Sources */,
+				F1EE1521287356400020CD74 /* RouteViewModel.swift in Sources */,
+				F1EE151E2873326F0020CD74 /* RouteSelectionScreen.swift in Sources */,
+				F16F039728736F2400AA8697 /* SourceDestinationSelector.swift in Sources */,
+				F16F03992873702B00AA8697 /* FastestRouteListItemView.swift in Sources */,
+				F16F03B42874C76200AA8697 /* MapView.swift in Sources */,
 				F1EE150B28732C1A0020CD74 /* SwiftUI_MapKit_SampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

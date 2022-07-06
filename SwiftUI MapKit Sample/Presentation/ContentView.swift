@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject private var routeViewModel = RouteViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        RouteSelectionScreen()
+            .background(
+                Color(uiColor: .systemGray6)
+                    .ignoresSafeArea(.all)
+            )
+            .environmentObject(routeViewModel)
     }
 }
 
